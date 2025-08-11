@@ -54,8 +54,8 @@ const Homepage = () => {
   }, [searchError, setError]);
 
   return (
-    <div className={`flex flex-col h-screen justify-center w-full p-4 bg-gradient-to-br from-[#21325b]/70 via-white/70 to-[#979695]/70`}>
-      <p className="text-center font-mono font-semibold text-xl pb-8 text-[#21325b]/90">mini-Etherscan</p>
+    <div className={`flex flex-col h-[100vh] justify-center w-full p-4 bg-gradient-to-br from-[#21325b]/70 via-white/70 to-[#979695]/70`}>
+      <p className="text-center font-mono font-semibold text-xl pb-8 text-[#21325b]/90">mini--Etherscan</p>
       <div className={`w-full max-w-2xl h-auto flex flex-col border border-gray-300 shadow-xl rounded-3xl mx-auto p-6 lg:p-8 ${primaryBorder} relative`}>
         <div className={`absolute inset-0 opacity-100 rounded-3xl z-0 ${tertiaryBg}`} />
           {/* Header */}
